@@ -1,0 +1,1 @@
+con el comando nohup el archivo sigue corriendo despues de cerrar la terminal.

@@ -1,0 +1,22 @@
+1.Cual es el nombre de su maquina?
+	rosita
+2.Cual es el dia y hora de su sistema?
+	vie feb 14 07:50:27 -04 2020
+3.En que ruta esta el comando cp?
+	/bin/cp
+4.Utilizar comandos find
+	find .
+	find ./CertiPython -maxdepth 1 -name *.pdf
+	find ./CertiPython -maxdepth 2 -name *.pdf
+	find ./Downloads -name keras*
+	find ~ -type f -name ".*"
+	find . -user rosita
+	find / -atime5
+	find / -size 40M
+	find / -mtime +30 -mtime -90
+	find -/CertiPython -type d -name "aula*"
+5.Utilize el comando find para encontrar todos los archivos con extension .txt desde la carpeta cursoLinux
+	find ~/cursoLinux -name "*.txt"
+6.Utilize comando find con exex para eliminar los archivos del aula 2 con extencion .so
+	find . -name "*.so" -exec /bin/rm {} \;
+

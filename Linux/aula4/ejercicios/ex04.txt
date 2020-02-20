@@ -1,0 +1,16 @@
+1.Cuantas palabras lineas y caracteres tiene el archivo nombres.txt?
+	lineas: 142
+	palabras: 284
+	caarcteres: 2172
+2.Utilice grep para obtener solo nombres que comiencen con A
+	grep "^A" nombres.txt
+3.Use grep para obtener todo lo que no comience por A y pongalo en otro archivo
+	grep -v "^A" nombres.txt >> nombres_no_A.txt
+4.Use comando diff para comparar nombres.txt con nombres_no_A.txt
+	diff nombres.txt nombres_no_A.txt
+5.Encontrar cuantos candidatos diferentes hay
+	sort nombres.txt | uniq -c
+6.Elabora una linea de comando para imprimir en pantalla el nombre de cada candidato y su numero de votos en orden decresente de numero de votos
+	sort nombres.txt | uniq -c | sort -rn
+	
+

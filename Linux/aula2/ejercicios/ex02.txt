@@ -1,0 +1,5 @@
+1. ls -a: es importante para ver todos los archivos incluso los ocultos.
+2. ls -h: para un afacil lectura
+3. ls -r: para obtener los ultimos archivos en cuanto a orden alfabetico
+
+

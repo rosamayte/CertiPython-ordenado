@@ -1,0 +1,1 @@
+Sergio, Daniel, Rosa.Resumen—En el presente documento se exponen cinco artículos que contribuirán con el desarrollo de una plataforma web que consiste en brindar información acerca de un videojuego determinado y al mismo tiempo permite crear las guías de construcción de personajes pertenecientes al mismo.

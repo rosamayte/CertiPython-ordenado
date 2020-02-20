@@ -1,0 +1,27 @@
+1.Use comandos ps
+	a. ps -fu rosita
+	b. ps -e
+	c. firefox &
+	   PID:4397
+	d. kill 4397
+2.Gedit
+   ctrl + z
+   bg
+	a. fg
+3.Use top
+  Los procesos que consumen mas recursos son los de root y el usuario principal, en este caso rosita.
+4.Use man top
+  El comando top muestra un resumen del estado de nuestro sistema y la lista de procesos que se estan ejecutando.
+  PID: identificador del proceso
+  User: usuario propietario del proceso
+  PR: prioridad del prceso
+  NI: asigna la prioridad
+  Virt: cantidad de memoria virtual utilizada
+  Res: cantidad de memoria RAM fisica q utiliza el proceso
+  SHR: memoria compartida
+  S: estado del proceso
+  CPU: porcentaje de cpu utilizada
+  MEM: porcentaje de memoria fisica utilizada
+
+5. se mato un proceso firefox
+  

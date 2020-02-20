@@ -1,0 +1,19 @@
+1. ls a*, ls a*.c,ls a??, ls a????.c, ls ?iii?.c, ls *9.c
+
+   Primer comando lista todos los archivos que comiencen por a 
+   El segundo lista todos los archivos que comiencen por a y tengan una extencion .c
+   El tercero lista todos los arhivos que empiezan por a y tienen obligatoriamente dos letras antes de la extencion .c
+   El cuarto lista todos los archivos que empiezan por a y ienen obligatoriamente cuatro letras obligatorias antes de la extension.c
+   El quinto lista todos los archivos que empiezan por cualquier letra y posteriormente tienen 3 i, otra letra obligatoria y extencion .c
+   El sexto lista los achivos que comienzan por cualquier cosa y varios elementos pero debe terminar en 9.c
+
+2. ls ai[1-5].c, ls [a-c]ii1.c
+
+   El primero lista todos los archivos que comienzan por ai y despues tienen un numero entre 1 y 5 con extension .c
+   El segundo lista todos los archivos que comienzan entre a y c y le sigue ii1.c 
+
+3. echo ai[1-5].c, ls [a-c]ii1.c
+
+   El primero imprime ai seguido de un numero de 1 a 5 con la extencion .c, sin importar que exista o no el archivo
+   El segundo imprime la lista de todos los archivos que comiencen entre a y c seguido de ii1.c
+

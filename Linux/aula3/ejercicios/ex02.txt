@@ -1,0 +1,5 @@
+Comandos 
+1. ls > archivo.txt
+2. sort < archivo.txt
+3. sort < archivo.txt > resultado.txt
+
